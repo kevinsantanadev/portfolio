@@ -64,3 +64,11 @@ public/
 ---
 
 Desenvolvido por Kevin Santana.
+
+## Direitos autorais
+
+© 2026 Kevin Santana dos Reis. Todos os direitos reservados.
+
+Este repositório é público exclusivamente para avaliação profissional, demonstração técnica e estudo pessoal. O código não é open source e sua cópia, redistribuição, publicação ou utilização em outros projetos não é autorizada.
+
+Consulte o arquivo [LICENSE.md](LICENSE.md) para conhecer todas as condições de uso.
