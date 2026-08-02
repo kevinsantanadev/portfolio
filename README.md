@@ -1,6 +1,6 @@
 # Portfólio — Kevin Santana
 
-Portfólio profissional de **Kevin Santana**, Desenvolvedor de Software Júnior.
+Portfólio profissional de **Kevin Santana**, Desenvolvedor Full Stack Júnior.
 O projeto reúne minha apresentação, experiência, formação, competências,
 projetos publicados e estudos em andamento.
 
@@ -13,7 +13,11 @@ Acesse a versão publicada:
 ## Destaques
 
 - Design tecnológico, moderno e responsivo
-- Navegação acessível por seções
+- Modo escuro e claro com preferência persistente
+- Navegação completa por teclado, foco visível e suporte a leitores de tela
+- Animações sutis com respeito à preferência de movimento reduzido
+- Terminal 3D interativo desenvolvido com React Three Fiber e Three.js
+- Conteúdo completo em português, inglês e espanhol
 - Apresentação dos projetos ImunoLink e VagaTrack
 - Laboratório de estudos e ideias em desenvolvimento
 - Biblioteca de fontes técnicas oficiais
@@ -24,6 +28,8 @@ Acesse a versão publicada:
 
 - Next.js
 - React
+- React Three Fiber
+- Three.js
 - TypeScript
 - HTML5
 - CSS3
@@ -46,14 +52,20 @@ Depois, acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
 ```text
 app/
-  globals.css       Estilos e responsividade
-  layout.tsx        Metadados e estrutura principal
-  page.tsx          Conteúdo do portfólio
+  components/       Tema, movimento e experiência 3D
+  en/ e es/         Rotas traduzidas
+  globals.css       Temas, animações, acessibilidade e responsividade
+  layout.tsx        Metadados e inicialização do tema
+  portfolio-copy.ts Conteúdo localizado em três idiomas
+  portfolio-page.tsx Estrutura compartilhada do portfólio
+  page.tsx          Página em português do Brasil
 public/
-  Curriculo-Kevin-Santana.pdf
   favicon.svg
   kevin-santana.jpeg
 ```
+
+Os currículos em português e inglês são disponibilizados pelo portfólio
+publicado, evitando duplicar documentos pessoais no repositório de código.
 
 ## Contato
 
