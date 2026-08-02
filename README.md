@@ -1,6 +1,6 @@
 # Portfólio — Kevin Santana
 
-Portfólio profissional de **Kevin Santana**, Desenvolvedor Full Stack Júnior.
+Portfólio, Desenvolvedor Full Stack Júnior.
 O projeto reúne minha apresentação, experiência, formação, competências,
 projetos publicados e estudos em andamento.
 
