@@ -14,16 +14,16 @@ function TerminalModel({ reducedMotion }: { reducedMotion: boolean }) {
       window.scrollY / Math.max(window.innerHeight, 1),
       1.4,
     );
-    const targetX = -0.12 + state.pointer.y * 0.12 + scrollProgress * 0.08;
-    const targetY = -0.3 + state.pointer.x * 0.24 + scrollProgress * 0.16;
-    const easing = 1 - Math.exp(-delta * 5);
+    const targetX = -0.12 + state.pointer.y * 0.16 + scrollProgress * 0.06;
+    const targetY = -0.3 + state.pointer.x * 0.34 + scrollProgress * 0.12;
+    const easing = 1 - Math.exp(-delta * 14);
 
     terminal.current.rotation.x +=
       (targetX - terminal.current.rotation.x) * easing;
     terminal.current.rotation.y +=
       (targetY - terminal.current.rotation.y) * easing;
     terminal.current.position.y =
-      Math.sin(state.clock.elapsedTime * 0.85) * 0.08;
+      Math.sin(state.clock.elapsedTime * 0.85) * 0.06;
   });
 
   return (
@@ -85,11 +85,11 @@ function TerminalModel({ reducedMotion }: { reducedMotion: boolean }) {
       ))}
 
       <mesh rotation={[1.08, 0.18, 0.35]}>
-        <torusGeometry args={[2.15, 0.022, 12, 96]} />
+        <torusGeometry args={[2.15, 0.022, 10, 48]} />
         <meshBasicMaterial color="#34d6e8" transparent opacity={0.72} />
       </mesh>
       <mesh rotation={[0.35, 1.22, -0.55]}>
-        <torusGeometry args={[2.32, 0.015, 12, 96]} />
+        <torusGeometry args={[2.32, 0.015, 10, 48]} />
         <meshBasicMaterial color="#8b5cf6" transparent opacity={0.5} />
       </mesh>
     </group>
@@ -115,10 +115,9 @@ export function TechTerminal3D() {
       <Canvas
         aria-hidden="true"
         camera={{ position: [0, 0.2, 5.4], fov: 42 }}
-        dpr={[1, 1.5]}
+        dpr={[1, 1.25]}
         frameloop={reducedMotion ? "demand" : "always"}
-        gl={{ alpha: true, antialias: true, powerPreference: "low-power" }}
-        shadows
+        gl={{ alpha: true, antialias: true, powerPreference: "high-performance" }}
       >
         <ambientLight intensity={1.35} />
         <directionalLight
