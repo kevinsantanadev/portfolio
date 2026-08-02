@@ -1243,7 +1243,7 @@ html[data-theme="light"] .theme-icon-moon {
 
 .vagatrack-metrics {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
 
@@ -2069,7 +2069,7 @@ html[data-theme="light"] .theme-icon-moon {
   display: grid;
   padding-top: 40px;
   grid-column: 1 / -1;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 28px;
   border-top: 1px solid var(--border);
 }
