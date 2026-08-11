@@ -60,7 +60,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Projetos selecionados",
       title: "Soluções que transformam conhecimento em experiência real.",
-      count: "02 projetos publicados",
+      count: "03 projetos publicados",
       imunolink: {
         meta: "Projeto em destaque",
         year: "Equipe de 2 · 2025",
@@ -87,6 +87,23 @@ export const copyByLanguage = {
         offers: "PROPOSTAS",
         persistentData: "DADOS PERSISTENTES",
         connectedDatabase: "Banco conectado",
+      },
+      prismivo: {
+        meta: "Produto SaaS Full Stack",
+        year: "2026",
+        subtitle:
+          "Plataforma B2B para organizar clientes, projetos, entregas e decisões em uma única operação.",
+        description:
+          "Produto digital completo com autenticação, PostgreSQL, isolamento por organização, papéis e permissões, arquivos privados, aprovações, atendimento, conteúdo, assinaturas demonstrativas, PWA, acessibilidade e testes automatizados. A arquitetura foi preparada para evolução contínua e publicação independente.",
+        technologiesLabel: "Tecnologias do Prismivo",
+        link: "Acessar Prismivo",
+        repository: "Ver código no GitHub",
+        dashboard: "OPERAÇÃO CENTRAL",
+        activeProjects: "PROJETOS ATIVOS",
+        approvals: "APROVAÇÕES",
+        team: "EQUIPE",
+        protectedData: "DADOS PROTEGIDOS",
+        organizationIsolation: "Isolamento por organização",
       },
     },
     laboratory: {
@@ -324,7 +341,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Selected projects",
       title: "Solutions that turn knowledge into real-world experience.",
-      count: "02 published projects",
+      count: "03 published projects",
       imunolink: {
         meta: "Featured project",
         year: "Two-person team · 2025",
@@ -351,6 +368,23 @@ export const copyByLanguage = {
         offers: "OFFERS",
         persistentData: "PERSISTENT DATA",
         connectedDatabase: "Database connected",
+      },
+      prismivo: {
+        meta: "Full Stack SaaS product",
+        year: "2026",
+        subtitle:
+          "B2B platform that brings clients, projects, deliverables, and decisions into one operation.",
+        description:
+          "A complete digital product with authentication, PostgreSQL, organization isolation, roles and permissions, private files, approvals, support, content, demo subscriptions, PWA, accessibility, and automated tests. Its architecture is ready for continuous evolution and independent deployment.",
+        technologiesLabel: "Prismivo technologies",
+        link: "Open Prismivo",
+        repository: "View code on GitHub",
+        dashboard: "OPERATIONS HUB",
+        activeProjects: "ACTIVE PROJECTS",
+        approvals: "APPROVALS",
+        team: "TEAM",
+        protectedData: "PROTECTED DATA",
+        organizationIsolation: "Organization-level isolation",
       },
     },
     laboratory: {
@@ -588,7 +622,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Proyectos seleccionados",
       title: "Soluciones que convierten el conocimiento en experiencia real.",
-      count: "02 proyectos publicados",
+      count: "03 proyectos publicados",
       imunolink: {
         meta: "Proyecto destacado",
         year: "Equipo de 2 · 2025",
@@ -615,6 +649,23 @@ export const copyByLanguage = {
         offers: "OFERTAS",
         persistentData: "DATOS PERSISTENTES",
         connectedDatabase: "Base de datos conectada",
+      },
+      prismivo: {
+        meta: "Producto SaaS Full Stack",
+        year: "2026",
+        subtitle:
+          "Plataforma B2B para reunir clientes, proyectos, entregas y decisiones en una sola operación.",
+        description:
+          "Producto digital completo con autenticación, PostgreSQL, aislamiento por organización, roles y permisos, archivos privados, aprobaciones, soporte, contenido, suscripciones demostrativas, PWA, accesibilidad y pruebas automatizadas. Su arquitectura está preparada para evolución continua y publicación independiente.",
+        technologiesLabel: "Tecnologías de Prismivo",
+        link: "Abrir Prismivo",
+        repository: "Ver código en GitHub",
+        dashboard: "OPERACIÓN CENTRAL",
+        activeProjects: "PROYECTOS ACTIVOS",
+        approvals: "APROBACIONES",
+        team: "EQUIPO",
+        protectedData: "DATOS PROTEGIDOS",
+        organizationIsolation: "Aislamiento por organización",
       },
     },
     laboratory: {

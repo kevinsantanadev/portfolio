@@ -1325,6 +1325,240 @@ html[data-theme="light"] .theme-icon-moon {
   font-size: 0.7rem;
 }
 
+.featured-project-prismivo {
+  background:
+    linear-gradient(135deg, rgba(217, 255, 96, 0.045), transparent 42%),
+    rgba(18, 24, 43, 0.52);
+}
+
+.prismivo-project-visual {
+  background:
+    radial-gradient(circle at 30% 43%, rgba(217, 255, 96, 0.2), transparent 28%),
+    radial-gradient(circle at 78% 24%, rgba(94, 111, 255, 0.25), transparent 32%),
+    #0b0d13;
+}
+
+.prismivo-screen {
+  position: relative;
+  z-index: 3;
+  width: min(81%, 630px);
+  overflow: hidden;
+  border: 1px solid rgba(228, 235, 255, 0.19);
+  border-radius: 17px;
+  background: rgba(17, 20, 29, 0.94);
+  box-shadow: 0 42px 100px rgba(0, 0, 0, 0.46);
+  color: #f6f7fb;
+  transform: rotate(-1.5deg);
+  backdrop-filter: blur(16px);
+}
+
+.prismivo-screen-top {
+  display: grid;
+  min-height: 50px;
+  padding: 0 16px;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.prismivo-screen-top strong {
+  font-family: var(--font-code);
+  font-size: 0.67rem;
+  letter-spacing: 0.17em;
+}
+
+.prismivo-mini-mark {
+  position: relative;
+  display: block;
+  width: 29px;
+  height: 29px;
+  transform: rotate(30deg);
+}
+
+.prismivo-mini-mark i {
+  position: absolute;
+  inset: 4px;
+  display: block;
+  border: 1px solid #d9ff60;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.prismivo-mini-mark i:nth-child(2) {
+  inset: 8px;
+  border-color: #6b78ff;
+  transform: rotate(20deg);
+}
+
+.prismivo-mini-mark i:nth-child(3) {
+  inset: 11px;
+  border-color: rgba(255, 255, 255, 0.72);
+  transform: rotate(42deg);
+}
+
+.prismivo-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d9ff60;
+  box-shadow: 0 0 0 5px rgba(217, 255, 96, 0.08);
+}
+
+.prismivo-screen-body {
+  display: grid;
+  min-height: 355px;
+  grid-template-columns: 58px 1fr;
+}
+
+.prismivo-screen-body > aside {
+  display: grid;
+  padding-top: 26px;
+  align-content: start;
+  justify-content: center;
+  gap: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.065);
+}
+
+.prismivo-screen-body > aside span {
+  display: block;
+  width: 21px;
+  height: 21px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.prismivo-screen-body > aside span.active {
+  border-color: rgba(217, 255, 96, 0.42);
+  background: rgba(217, 255, 96, 0.12);
+  box-shadow: inset 3px 0 #d9ff60;
+}
+
+.prismivo-dashboard {
+  padding: 31px 29px;
+}
+
+.prismivo-dashboard > small,
+.prismivo-project-badge small {
+  color: #82899c;
+  font-family: var(--font-code);
+  font-size: 0.45rem;
+  letter-spacing: 0.13em;
+}
+
+.prismivo-dashboard h4 {
+  margin: 7px 0 23px;
+  font-size: 1.25rem;
+  letter-spacing: -0.045em;
+}
+
+.prismivo-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.prismivo-metrics > span {
+  display: grid;
+  min-height: 80px;
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.prismivo-metrics strong {
+  margin-top: 12px;
+  font-size: 1.18rem;
+  letter-spacing: -0.055em;
+}
+
+.prismivo-flow {
+  display: grid;
+  margin-top: 10px;
+  padding: 17px 14px;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.022);
+}
+
+.prismivo-flow span {
+  display: block;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.prismivo-flow i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #d9ff60, #7582ff);
+}
+
+.prismivo-project-badge {
+  position: absolute;
+  z-index: 5;
+  right: 5%;
+  bottom: 9%;
+  display: grid;
+  min-width: 220px;
+  min-height: 78px;
+  padding: 13px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid rgba(228, 235, 255, 0.2);
+  border-radius: 14px;
+  background: rgba(22, 25, 35, 0.93);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(15px);
+}
+
+.prismivo-project-badge > span {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border-radius: 10px;
+  background: rgba(217, 255, 96, 0.11);
+  color: #d9ff60;
+  font-family: var(--font-code);
+  font-size: 0.62rem;
+  font-weight: 800;
+}
+
+.prismivo-project-badge > div {
+  display: grid;
+  gap: 5px;
+}
+
+.prismivo-project-badge strong {
+  max-width: 145px;
+  color: #f6f7fb;
+  font-size: 0.68rem;
+}
+
+.prismivo-glass {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid rgba(217, 255, 96, 0.16);
+  transform: rotate(45deg);
+}
+
+.prismivo-glass-one {
+  width: 360px;
+  height: 360px;
+}
+
+.prismivo-glass-two {
+  width: 560px;
+  height: 560px;
+  border-color: rgba(117, 130, 255, 0.11);
+  transform: rotate(65deg);
+}
+
 .browser-top {
   display: flex;
   height: 46px;
@@ -1484,6 +1718,16 @@ html[data-theme="light"] .theme-icon-moon {
 
 .text-link:hover span {
   transform: translate(3px, -3px);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.text-link-secondary {
+  color: #b8c0d6;
 }
 
 .future-projects {
@@ -2724,6 +2968,54 @@ html[data-theme="light"] .mobile-nav nav a:hover {
     width: 88%;
   }
 
+  .prismivo-screen {
+    width: 92%;
+  }
+
+  .prismivo-screen-body {
+    min-height: 285px;
+    grid-template-columns: 44px 1fr;
+  }
+
+  .prismivo-screen-body > aside {
+    gap: 11px;
+  }
+
+  .prismivo-screen-body > aside span {
+    width: 18px;
+    height: 18px;
+  }
+
+  .prismivo-dashboard {
+    padding: 22px 15px;
+  }
+
+  .prismivo-dashboard h4 {
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .prismivo-metrics {
+    gap: 5px;
+  }
+
+  .prismivo-metrics > span {
+    min-height: 69px;
+    padding: 8px;
+  }
+
+  .prismivo-metrics small {
+    font-size: 0.36rem;
+  }
+
+  .prismivo-project-badge {
+    right: 2%;
+    bottom: 3%;
+    min-width: 190px;
+    transform: scale(0.82);
+    transform-origin: right bottom;
+  }
+
   .browser-content {
     min-height: 260px;
     padding: 28px;
@@ -2739,6 +3031,10 @@ html[data-theme="light"] .mobile-nav nav a:hover {
 
   .project-copy h3 {
     font-size: 2.8rem;
+  }
+
+  .project-links {
+    gap: 16px;
   }
 
   .future-projects,

@@ -395,6 +395,119 @@ export function PortfolioPage({
             </div>
           </article>
 
+          <article
+            className="featured-project featured-project-prismivo"
+            data-reveal="up"
+          >
+            <div
+              className="project-visual prismivo-project-visual"
+              aria-hidden="true"
+            >
+              <div className="prismivo-screen">
+                <div className="prismivo-screen-top">
+                  <span className="prismivo-mini-mark">
+                    <i />
+                    <i />
+                    <i />
+                  </span>
+                  <strong>PRISMIVO</strong>
+                  <span className="prismivo-live-dot" />
+                </div>
+                <div className="prismivo-screen-body">
+                  <aside>
+                    <span className="active" />
+                    <span />
+                    <span />
+                    <span />
+                  </aside>
+                  <div className="prismivo-dashboard">
+                    <small>{copy.projects.prismivo.dashboard}</small>
+                    <h4>Clareza para cada ângulo.</h4>
+                    <div className="prismivo-metrics">
+                      <span>
+                        <small>{copy.projects.prismivo.activeProjects}</small>
+                        <strong>12</strong>
+                      </span>
+                      <span>
+                        <small>{copy.projects.prismivo.approvals}</small>
+                        <strong>08</strong>
+                      </span>
+                      <span>
+                        <small>{copy.projects.prismivo.team}</small>
+                        <strong>06</strong>
+                      </span>
+                    </div>
+                    <div className="prismivo-flow">
+                      {[72, 45, 88, 62, 94].map((width, index) => (
+                        <span key={index}>
+                          <i style={{ width: `${width}%` }} />
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="prismivo-project-badge">
+                <span>RLS</span>
+                <div>
+                  <small>{copy.projects.prismivo.protectedData}</small>
+                  <strong>{copy.projects.prismivo.organizationIsolation}</strong>
+                </div>
+              </div>
+              <div className="prismivo-glass prismivo-glass-one" />
+              <div className="prismivo-glass prismivo-glass-two" />
+            </div>
+
+            <div className="project-copy">
+              <div className="project-meta">
+                <span>{copy.projects.prismivo.meta}</span>
+                <span>{copy.projects.prismivo.year}</span>
+              </div>
+              <h3>Prismivo</h3>
+              <p className="project-subtitle">
+                {copy.projects.prismivo.subtitle}
+              </p>
+              <p>{copy.projects.prismivo.description}</p>
+              <ul
+                className="tag-list"
+                aria-label={copy.projects.prismivo.technologiesLabel}
+              >
+                {[
+                  "Next.js",
+                  "TypeScript",
+                  "PostgreSQL",
+                  "Supabase",
+                  "RLS",
+                  "Playwright",
+                ].map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <div className="project-links">
+                <a
+                  className="text-link"
+                  href="https://prismivo.kevinsantanadev.com.br"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {copy.projects.prismivo.link}{" "}
+                  <span aria-hidden="true">↗</span>
+                  <span className="sr-only"> ({copy.newTab})</span>
+                </a>
+                <a
+                  className="text-link text-link-secondary"
+                  href="https://github.com/kevinsantanadev/prismivo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {copy.projects.prismivo.repository}{" "}
+                  <span aria-hidden="true">↗</span>
+                  <span className="sr-only"> ({copy.newTab})</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
           <div
             id="laboratorio"
             className="laboratory-heading"
