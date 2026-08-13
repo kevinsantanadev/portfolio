@@ -98,6 +98,18 @@ function TerminalModel({ reducedMotion }: { reducedMotion: boolean }) {
 
 export function TechTerminal3D() {
   const [reducedMotion, setReducedMotion] = useState(false);
+  const [supportsWebGL] = useState(() => {
+    if (typeof document === "undefined") return false;
+
+    try {
+      const canvas = document.createElement("canvas");
+      return Boolean(
+        canvas.getContext("webgl2") ?? canvas.getContext("webgl"),
+      );
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -106,6 +118,21 @@ export function TechTerminal3D() {
     media.addEventListener("change", updatePreference);
     return () => media.removeEventListener("change", updatePreference);
   }, []);
+
+  if (!supportsWebGL) {
+    return (
+      <>
+        <span className="terminal-3d-label" aria-hidden="true">
+          3D · FULL STACK
+        </span>
+        <span className="terminal-3d-fallback" aria-hidden="true">
+          <span className="terminal-fallback-screen" />
+          <span className="terminal-fallback-stand" />
+          <span className="terminal-fallback-keyboard" />
+        </span>
+      </>
+    );
+  }
 
   return (
     <>
