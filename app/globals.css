@@ -2424,6 +2424,54 @@ html[data-theme="light"] .theme-icon-moon {
   animation: terminal-pulse 1.2s ease-in-out infinite alternate;
 }
 
+.terminal-3d-fallback {
+  position: absolute;
+  inset: 14% 12% 16%;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.35));
+}
+
+.terminal-fallback-screen {
+  position: absolute;
+  top: 12%;
+  width: 76%;
+  height: 52%;
+  border: 5px solid #1b2540;
+  border-radius: 12px;
+  background:
+    linear-gradient(90deg, #64eaff 0 46%, transparent 46%) 20% 27% / 56% 3px no-repeat,
+    linear-gradient(90deg, #8b5cf6 0 66%, transparent 66%) 20% 48% / 56% 3px no-repeat,
+    linear-gradient(90deg, #34d6e8 0 38%, transparent 38%) 20% 69% / 56% 3px no-repeat,
+    linear-gradient(145deg, #07131f, #0b2636);
+  box-shadow:
+    inset 0 0 22px rgba(52, 214, 232, 0.16),
+    0 0 18px rgba(52, 214, 232, 0.16);
+}
+
+.terminal-fallback-stand {
+  position: absolute;
+  top: 64%;
+  width: 25%;
+  height: 15%;
+  border-radius: 0 0 7px 7px;
+  background: #202a46;
+}
+
+.terminal-fallback-keyboard {
+  position: absolute;
+  bottom: 7%;
+  width: 82%;
+  height: 18%;
+  transform: perspective(140px) rotateX(48deg);
+  border: 1px solid rgba(100, 234, 255, 0.35);
+  border-radius: 7px;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 13%, rgba(100, 234, 255, 0.24) 13% 14%),
+    #18213a;
+}
+
 @keyframes terminal-pulse {
   to {
     opacity: 0.62;
