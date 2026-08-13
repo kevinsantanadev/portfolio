@@ -125,14 +125,14 @@ export function PortfolioPage({
               </a>
               <a
                 className="button button-secondary resume-button"
-                href="https://kevinsantanadev.com.br/Kevin-Santana-Curriculo-PT.pdf"
+                href="/Kevin-Santana-Curriculo-PT.pdf"
                 download
               >
                 {copy.hero.resumePt} <span aria-hidden="true">↓</span>
               </a>
               <a
                 className="button button-secondary resume-button"
-                href="https://kevinsantanadev.com.br/Kevin-Santana-Resume-EN.pdf"
+                href="/Kevin-Santana-Resume-EN.pdf"
                 download
               >
                 {copy.hero.resumeEn} <span aria-hidden="true">↓</span>
