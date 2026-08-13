@@ -28,7 +28,7 @@ export const copyByLanguage = {
     ],
     hero: {
       eyebrow: "Portfólio",
-      role: "Desenvolvedor Full Stack Júnior",
+      role: "Desenvolvedor Full Stack",
       intro:
         "Construo soluções digitais eficientes, bem estruturadas e preparadas para evoluir.",
       projects: "Ver projetos",
@@ -47,7 +47,7 @@ export const copyByLanguage = {
       kicker: "Sobre mim",
       title: "Tecnologia com propósito, clareza e evolução constante.",
       paragraphs: [
-        "Sou Desenvolvedor Full Stack Júnior, com formação técnica em Tecnologia da Informação e graduação em Análise e Desenvolvimento de Sistemas em andamento no UNASP.",
+        "Sou Desenvolvedor Full Stack, com formação técnica em Tecnologia da Informação e graduação em Análise e Desenvolvimento de Sistemas em andamento no UNASP.",
         "Minha experiência reúne desenvolvimento web, lógica de negócio, banco de dados e colaboração em equipe. No ImunoLink, projeto desenvolvido por dois integrantes, atuei principalmente no back-end e também contribuí pontualmente no front-end, ampliando minha vivência full stack.",
       ],
       highlightsLabel: "Destaques profissionais",
@@ -285,7 +285,7 @@ export const copyByLanguage = {
       location: "Localização",
       locationValue: "Hortolândia, São Paulo",
     },
-    footerRole: "Desenvolvedor Full Stack Júnior",
+    footerRole: "Desenvolvedor Full Stack",
     copyright: "© 2026 Kevin Santana. Todos os direitos reservados.",
   },
   en: {
@@ -309,7 +309,7 @@ export const copyByLanguage = {
     ],
     hero: {
       eyebrow: "Portfolio",
-      role: "Junior Full Stack Developer",
+      role: "Full Stack Developer",
       intro:
         "I build efficient, well-structured digital solutions designed to evolve.",
       projects: "View projects",
@@ -328,7 +328,7 @@ export const copyByLanguage = {
       kicker: "About me",
       title: "Technology with purpose, clarity, and continuous growth.",
       paragraphs: [
-        "I am a Junior Full Stack Developer with a technical background in Information Technology, currently pursuing a degree in Systems Analysis and Development at UNASP.",
+        "I am a Full Stack Developer with a technical background in Information Technology, currently pursuing a degree in Systems Analysis and Development at UNASP.",
         "My experience combines web development, business logic, databases, and teamwork. ImunoLink was built by a two-person team: I worked mainly on the back-end and also contributed to the front-end at key stages, expanding my full stack experience.",
       ],
       highlightsLabel: "Professional highlights",
@@ -566,7 +566,7 @@ export const copyByLanguage = {
       location: "Location",
       locationValue: "Hortolândia, São Paulo, Brazil",
     },
-    footerRole: "Junior Full Stack Developer",
+    footerRole: "Full Stack Developer",
     copyright: "© 2026 Kevin Santana. All rights reserved.",
   },
   es: {
@@ -590,7 +590,7 @@ export const copyByLanguage = {
     ],
     hero: {
       eyebrow: "Portafolio",
-      role: "Desarrollador Full Stack Júnior",
+      role: "Desarrollador Full Stack",
       intro:
         "Creo soluciones digitales eficientes, bien estructuradas y preparadas para evolucionar.",
       projects: "Ver proyectos",
@@ -609,7 +609,7 @@ export const copyByLanguage = {
       kicker: "Sobre mí",
       title: "Tecnología con propósito, claridad y evolución constante.",
       paragraphs: [
-        "Soy Desarrollador Full Stack Júnior, con formación técnica en Tecnología de la Información y actualmente curso Análisis y Desarrollo de Sistemas en UNASP.",
+        "Soy Desarrollador Full Stack, con formación técnica en Tecnología de la Información y actualmente curso Análisis y Desarrollo de Sistemas en UNASP.",
         "Mi experiencia combina desarrollo web, lógica de negocio, bases de datos y trabajo en equipo. ImunoLink fue desarrollado por un equipo de dos personas: trabajé principalmente en el back-end y también contribuí al front-end en etapas clave, ampliando mi experiencia full stack.",
       ],
       highlightsLabel: "Aspectos profesionales destacados",
@@ -847,7 +847,7 @@ export const copyByLanguage = {
       location: "Ubicación",
       locationValue: "Hortolândia, São Paulo, Brasil",
     },
-    footerRole: "Desarrollador Full Stack Júnior",
+    footerRole: "Desarrollador Full Stack",
     copyright: "© 2026 Kevin Santana. Todos los derechos reservados.",
   },
 } as const;
