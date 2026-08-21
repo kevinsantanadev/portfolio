@@ -1510,6 +1510,231 @@ html[data-theme="light"] .theme-icon-moon {
   transform: rotate(65deg);
 }
 
+.featured-project-bruna {
+  background:
+    linear-gradient(135deg, rgba(83, 197, 190, 0.055), transparent 45%),
+    rgba(18, 24, 43, 0.52);
+}
+
+.bruna-project-visual {
+  background:
+    radial-gradient(circle at 33% 42%, rgba(76, 190, 181, 0.25), transparent 29%),
+    radial-gradient(circle at 80% 24%, rgba(89, 133, 164, 0.26), transparent 33%),
+    #08151b;
+}
+
+.bruna-portfolio-screen {
+  position: relative;
+  z-index: 3;
+  width: min(82%, 630px);
+  overflow: hidden;
+  border: 1px solid rgba(196, 228, 229, 0.22);
+  border-radius: 20px;
+  background: rgba(10, 29, 36, 0.94);
+  box-shadow: 0 42px 100px rgba(0, 0, 0, 0.43);
+  color: #edf8f7;
+  transform: rotate(1.5deg);
+  backdrop-filter: blur(16px);
+}
+
+.bruna-screen-top {
+  display: grid;
+  min-height: 58px;
+  padding: 0 17px;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgba(215, 239, 238, 0.09);
+}
+
+.bruna-clinical-mark {
+  position: relative;
+  display: block;
+  width: 31px;
+  height: 31px;
+  border: 1px solid rgba(118, 222, 211, 0.28);
+  border-radius: 50%;
+  background: rgba(82, 204, 193, 0.1);
+}
+
+.bruna-clinical-mark i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 15px;
+  height: 3px;
+  border-radius: 99px;
+  background: #73d8ce;
+  transform: translate(-50%, -50%);
+}
+
+.bruna-clinical-mark i:last-child {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.bruna-screen-top > div {
+  display: grid;
+  gap: 3px;
+}
+
+.bruna-screen-top strong {
+  font-size: 0.72rem;
+}
+
+.bruna-screen-top small,
+.bruna-screen-body > small,
+.bruna-portfolio-cards small,
+.bruna-project-badge small {
+  color: #78939a;
+  font-family: var(--font-code);
+  font-size: 0.44rem;
+  letter-spacing: 0.11em;
+}
+
+.bruna-screen-top b {
+  padding: 7px 9px;
+  border: 1px solid rgba(115, 216, 206, 0.2);
+  border-radius: 8px;
+  color: #82dfd6;
+  font-family: var(--font-code);
+  font-size: 0.44rem;
+  letter-spacing: 0.08em;
+}
+
+.bruna-screen-body {
+  min-height: 350px;
+  padding: 38px 36px 32px;
+}
+
+.bruna-screen-body h4 {
+  max-width: 430px;
+  margin: 8px 0 24px;
+  font-size: clamp(1.18rem, 2vw, 1.55rem);
+  line-height: 1.17;
+  letter-spacing: -0.045em;
+}
+
+.bruna-heartbeat {
+  display: block;
+  width: 100%;
+  height: 82px;
+  overflow: visible;
+  color: #73d8ce;
+  filter: drop-shadow(0 0 9px rgba(115, 216, 206, 0.26));
+}
+
+.bruna-heartbeat path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: bruna-heartbeat-trace 4.5s ease-in-out infinite;
+}
+
+.bruna-portfolio-cards {
+  display: grid;
+  margin-top: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9px;
+}
+
+.bruna-portfolio-cards > span {
+  display: grid;
+  min-height: 76px;
+  padding: 12px;
+  gap: 12px;
+  border: 1px solid rgba(215, 239, 238, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.bruna-portfolio-cards strong {
+  font-size: 0.7rem;
+}
+
+.bruna-project-badge {
+  position: absolute;
+  z-index: 5;
+  right: 5%;
+  bottom: 8%;
+  display: grid;
+  min-width: 215px;
+  min-height: 76px;
+  padding: 13px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid rgba(196, 228, 229, 0.22);
+  border-radius: 14px;
+  background: rgba(15, 39, 46, 0.94);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(15px);
+}
+
+.bruna-project-badge > span {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border-radius: 11px;
+  background: rgba(115, 216, 206, 0.11);
+  color: #82dfd6;
+  font-family: var(--font-code);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.bruna-project-badge > div {
+  display: grid;
+  gap: 5px;
+}
+
+.bruna-project-badge strong {
+  color: #edf8f7;
+  font-size: 0.7rem;
+}
+
+.bruna-pulse-ring {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid rgba(115, 216, 206, 0.14);
+  border-radius: 50%;
+}
+
+.bruna-pulse-ring-one {
+  width: 390px;
+  height: 390px;
+}
+
+.bruna-pulse-ring-two {
+  width: 610px;
+  height: 610px;
+  border-color: rgba(89, 133, 164, 0.12);
+}
+
+@keyframes bruna-heartbeat-trace {
+  0%,
+  12% {
+    stroke-dashoffset: 1;
+    opacity: 0.38;
+  }
+
+  48%,
+  82% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+
+  100% {
+    stroke-dashoffset: -1;
+    opacity: 0.38;
+  }
+}
+
 .browser-top {
   display: flex;
   height: 46px;
@@ -3008,6 +3233,47 @@ html[data-theme="light"] .mobile-nav nav a:hover {
   }
 
   .prismivo-project-badge {
+    right: 2%;
+    bottom: 3%;
+    min-width: 190px;
+    transform: scale(0.82);
+    transform-origin: right bottom;
+  }
+
+  .bruna-portfolio-screen {
+    width: 92%;
+  }
+
+  .bruna-screen-top {
+    padding-inline: 12px;
+  }
+
+  .bruna-screen-body {
+    min-height: 285px;
+    padding: 25px 18px 22px;
+  }
+
+  .bruna-screen-body h4 {
+    max-width: 290px;
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+  }
+
+  .bruna-heartbeat {
+    height: 64px;
+  }
+
+  .bruna-portfolio-cards > span {
+    min-height: 66px;
+    padding: 9px;
+    gap: 8px;
+  }
+
+  .bruna-portfolio-cards strong {
+    font-size: 0.58rem;
+  }
+
+  .bruna-project-badge {
     right: 2%;
     bottom: 3%;
     min-width: 190px;

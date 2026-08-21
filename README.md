@@ -18,11 +18,21 @@ Acesse a versão publicada:
 - Animações sutis com respeito à preferência de movimento reduzido
 - Terminal 3D interativo desenvolvido com React Three Fiber e Three.js
 - Conteúdo completo em português, inglês e espanhol
-- Apresentação dos projetos ImunoLink, PS Agenda e Prismivo
+- Apresentação dos projetos ImunoLink, PS Agenda, Prismivo e Portfólio Bruna Campos
 - Laboratório de estudos e ideias em desenvolvimento
 - Biblioteca de fontes técnicas oficiais
 - Currículo disponível para download
 - Links diretos para LinkedIn, GitHub e contato
+
+## Projeto para cliente em destaque
+
+### Portfólio Bruna Campos
+
+Portfólio profissional desenvolvido para uma Técnica em Enfermagem, reunindo formação, experiências, estágios, certificações, competências, contatos e currículo para download. O projeto possui identidade clínica própria, layout responsivo, acessibilidade, animações sutis, SEO, prévia social e domínio personalizado.
+
+**[Acessar o Portfólio Bruna Campos](https://bruna.kevinsantanadev.com.br)**
+
+O site é público, mas seu código-fonte e os documentos de trabalho permanecem privados por se tratar de um projeto entregue a cliente.
 
 ## Tecnologias
 
