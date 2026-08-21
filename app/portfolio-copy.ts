@@ -60,7 +60,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Projetos selecionados",
       title: "Soluções que transformam conhecimento em experiência real.",
-      count: "03 projetos publicados",
+      count: "04 projetos publicados",
       imunolink: {
         meta: "Projeto em destaque",
         year: "Equipe de 2 · 2025",
@@ -104,6 +104,28 @@ export const copyByLanguage = {
         team: "EQUIPE",
         protectedData: "DADOS PROTEGIDOS",
         organizationIsolation: "Isolamento por organização",
+      },
+      bruna: {
+        meta: "Portfólio desenvolvido para cliente",
+        year: "2026",
+        subtitle:
+          "Presença profissional para uma Técnica em Enfermagem, com identidade clínica, acessibilidade e currículo para download.",
+        description:
+          "Projeto entregue a uma cliente real para organizar formação, experiências, estágios, certificações e contatos em uma apresentação pública responsiva. Desenvolvi a direção visual, a arquitetura de conteúdo, o SEO, a prévia social, animações sutis, acessibilidade, domínio próprio e um currículo otimizado. O código permanece privado para proteger o trabalho contratado e os arquivos da cliente.",
+        technologiesLabel: "Tecnologias e características do portfólio da Bruna",
+        privacyTag: "Código privado",
+        responsiveTag: "Design responsivo",
+        accessibilityTag: "Acessibilidade",
+        link: "Acessar portfólio",
+        role: "Técnica em Enfermagem",
+        portfolioLabel: "PORTFÓLIO PROFISSIONAL",
+        visualTitle: "Cuidado que se transforma em presença profissional.",
+        education: "FORMAÇÃO",
+        educationValue: "Técnica + Graduação",
+        experience: "VIVÊNCIA",
+        experienceValue: "Assistência e estágios",
+        curriculum: "CURRÍCULO PROFISSIONAL",
+        download: "Download disponível",
       },
     },
     laboratory: {
@@ -341,7 +363,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Selected projects",
       title: "Solutions that turn knowledge into real-world experience.",
-      count: "03 published projects",
+      count: "04 published projects",
       imunolink: {
         meta: "Featured project",
         year: "Two-person team · 2025",
@@ -385,6 +407,28 @@ export const copyByLanguage = {
         team: "TEAM",
         protectedData: "PROTECTED DATA",
         organizationIsolation: "Organization-level isolation",
+      },
+      bruna: {
+        meta: "Client portfolio project",
+        year: "2026",
+        subtitle:
+          "A professional presence for a Nursing Technician, combining a clinical identity, accessibility, and a downloadable résumé.",
+        description:
+          "A real client project that organizes education, work experience, clinical placements, certifications, and contact details in a responsive public presentation. I developed the visual direction, content architecture, SEO, social preview, subtle motion, accessibility, custom domain, and an optimized résumé. The source code remains private to protect the commissioned work and client files.",
+        technologiesLabel: "Bruna portfolio technologies and characteristics",
+        privacyTag: "Private source code",
+        responsiveTag: "Responsive design",
+        accessibilityTag: "Accessibility",
+        link: "Open portfolio",
+        role: "Nursing Technician",
+        portfolioLabel: "PROFESSIONAL PORTFOLIO",
+        visualTitle: "Care transformed into professional presence.",
+        education: "EDUCATION",
+        educationValue: "Technical + Degree",
+        experience: "EXPERIENCE",
+        experienceValue: "Care and placements",
+        curriculum: "PROFESSIONAL RÉSUMÉ",
+        download: "Download available",
       },
     },
     laboratory: {
@@ -622,7 +666,7 @@ export const copyByLanguage = {
     projects: {
       kicker: "Proyectos seleccionados",
       title: "Soluciones que convierten el conocimiento en experiencia real.",
-      count: "03 proyectos publicados",
+      count: "04 proyectos publicados",
       imunolink: {
         meta: "Proyecto destacado",
         year: "Equipo de 2 · 2025",
@@ -666,6 +710,28 @@ export const copyByLanguage = {
         team: "EQUIPO",
         protectedData: "DATOS PROTEGIDOS",
         organizationIsolation: "Aislamiento por organización",
+      },
+      bruna: {
+        meta: "Portafolio desarrollado para cliente",
+        year: "2026",
+        subtitle:
+          "Presencia profesional para una Técnica en Enfermería, con identidad clínica, accesibilidad y currículum descargable.",
+        description:
+          "Proyecto entregado a una cliente real para organizar formación, experiencia, prácticas, certificaciones y contacto en una presentación pública adaptable. Desarrollé la dirección visual, la arquitectura de contenido, el SEO, la vista previa social, animaciones sutiles, accesibilidad, dominio propio y un currículum optimizado. El código permanece privado para proteger el trabajo contratado y los archivos de la cliente.",
+        technologiesLabel: "Tecnologías y características del portafolio de Bruna",
+        privacyTag: "Código privado",
+        responsiveTag: "Diseño adaptable",
+        accessibilityTag: "Accesibilidad",
+        link: "Abrir portafolio",
+        role: "Técnica en Enfermería",
+        portfolioLabel: "PORTAFOLIO PROFESIONAL",
+        visualTitle: "Cuidado que se transforma en presencia profesional.",
+        education: "FORMACIÓN",
+        educationValue: "Técnico + Grado",
+        experience: "EXPERIENCIA",
+        experienceValue: "Atención y prácticas",
+        curriculum: "CURRÍCULUM PROFESIONAL",
+        download: "Descarga disponible",
       },
     },
     laboratory: {

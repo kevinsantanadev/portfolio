@@ -501,6 +501,98 @@ export function PortfolioPage({
             </div>
           </article>
 
+          <article
+            className="featured-project featured-project-bruna"
+            data-reveal="up"
+          >
+            <div
+              className="project-visual bruna-project-visual"
+              aria-hidden="true"
+            >
+              <div className="bruna-portfolio-screen">
+                <div className="bruna-screen-top">
+                  <span className="bruna-clinical-mark">
+                    <i />
+                    <i />
+                  </span>
+                  <div>
+                    <strong>Bruna Campos</strong>
+                    <small>{copy.projects.bruna.role}</small>
+                  </div>
+                  <b>COREN-SP</b>
+                </div>
+                <div className="bruna-screen-body">
+                  <small>{copy.projects.bruna.portfolioLabel}</small>
+                  <h4>{copy.projects.bruna.visualTitle}</h4>
+                  <svg
+                    className="bruna-heartbeat"
+                    viewBox="0 0 520 82"
+                    preserveAspectRatio="none"
+                  >
+                    <path
+                      pathLength="1"
+                      d="M0 42h92l19-1 13-23 19 51 18-67 22 61 17-21h72l17-1 12-20 18 45 18-61 21 57 18-20h164"
+                    />
+                  </svg>
+                  <div className="bruna-portfolio-cards">
+                    <span>
+                      <small>{copy.projects.bruna.education}</small>
+                      <strong>{copy.projects.bruna.educationValue}</strong>
+                    </span>
+                    <span>
+                      <small>{copy.projects.bruna.experience}</small>
+                      <strong>{copy.projects.bruna.experienceValue}</strong>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="bruna-project-badge">
+                <span>CV</span>
+                <div>
+                  <small>{copy.projects.bruna.curriculum}</small>
+                  <strong>{copy.projects.bruna.download}</strong>
+                </div>
+              </div>
+              <div className="bruna-pulse-ring bruna-pulse-ring-one" />
+              <div className="bruna-pulse-ring bruna-pulse-ring-two" />
+            </div>
+
+            <div className="project-copy">
+              <div className="project-meta">
+                <span>{copy.projects.bruna.meta}</span>
+                <span>{copy.projects.bruna.year}</span>
+              </div>
+              <h3>Bruna Campos</h3>
+              <p className="project-subtitle">
+                {copy.projects.bruna.subtitle}
+              </p>
+              <p>{copy.projects.bruna.description}</p>
+              <ul
+                className="tag-list"
+                aria-label={copy.projects.bruna.technologiesLabel}
+              >
+                {[
+                  "Next.js",
+                  "TypeScript",
+                  copy.projects.bruna.responsiveTag,
+                  copy.projects.bruna.accessibilityTag,
+                  copy.projects.bruna.privacyTag,
+                ].map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <a
+                className="text-link"
+                href="https://bruna.kevinsantanadev.com.br"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {copy.projects.bruna.link} <span aria-hidden="true">↗</span>
+                <span className="sr-only"> ({copy.newTab})</span>
+              </a>
+            </div>
+          </article>
+
           <div
             id="laboratorio"
             className="laboratory-heading"
