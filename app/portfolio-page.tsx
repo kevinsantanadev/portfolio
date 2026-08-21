@@ -375,9 +375,15 @@ export function PortfolioPage({
                   <li key={item}>{item}</li>
                 ))}
               </ul>
-              <a className="text-link" href="#contato">
+              <a
+                className="text-link"
+                href="https://agenda.kevinsantanadev.com.br/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {copy.projects.psagenda.link}{" "}
-                <span aria-hidden="true">→</span>
+                <span aria-hidden="true">↗</span>
+                <span className="sr-only"> ({copy.newTab})</span>
               </a>
             </div>
           </article>
