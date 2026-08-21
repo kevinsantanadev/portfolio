@@ -18,7 +18,7 @@ Acesse a versão publicada:
 - Animações sutis com respeito à preferência de movimento reduzido
 - Terminal 3D interativo desenvolvido com React Three Fiber e Three.js
 - Conteúdo completo em português, inglês e espanhol
-- Apresentação dos projetos ImunoLink, VagaTrack e Prismivo
+- Apresentação dos projetos ImunoLink, PS Agenda e Prismivo
 - Laboratório de estudos e ideias em desenvolvimento
 - Biblioteca de fontes técnicas oficiais
 - Currículo disponível para download

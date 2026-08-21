@@ -297,61 +297,55 @@ export function PortfolioPage({
           </article>
 
           <article
-            className="featured-project featured-project-vagatrack"
+            className="featured-project featured-project-psagenda"
             data-reveal="up"
           >
             <div
-              className="project-visual vagatrack-project-visual"
+              className="project-visual psagenda-project-visual"
               aria-hidden="true"
             >
-              <div className="vagatrack-screen">
-                <div className="vagatrack-screen-top">
-                  <span className="vagatrack-mini-logo">
-                    <i className="mini-logo-line mini-logo-line-one" />
-                    <i className="mini-logo-line mini-logo-line-two" />
-                    <i className="mini-logo-node mini-logo-node-one" />
-                    <i className="mini-logo-node mini-logo-node-two" />
-                    <i className="mini-logo-node mini-logo-node-three" />
-                  </span>
-                  <strong>VagaTrack</strong>
+              <div className="psagenda-screen">
+                <div className="psagenda-screen-top">
+                  <span className="psagenda-mini-logo">PS</span>
+                  <strong>PS Agenda</strong>
                   <i />
                 </div>
-                <div className="vagatrack-screen-body">
+                <div className="psagenda-screen-body">
                   <aside>
                     <span className="active" />
                     <span />
                     <span />
                   </aside>
                   <div>
-                    <small>{copy.projects.vagatrack.overview}</small>
-                    <h4>{copy.projects.vagatrack.greeting}</h4>
-                    <div className="vagatrack-metrics">
+                    <small>{copy.projects.psagenda.overview}</small>
+                    <h4>{copy.projects.psagenda.greeting}</h4>
+                    <div className="psagenda-metrics">
                       <span>
-                        <small>{copy.projects.vagatrack.applications}</small>
-                        <strong>24</strong>
+                        <small>{copy.projects.psagenda.appointments}</small>
+                        <strong>08</strong>
                       </span>
                       <span>
-                        <small>{copy.projects.vagatrack.interviews}</small>
+                        <small>{copy.projects.psagenda.completed}</small>
                         <strong>05</strong>
                       </span>
                       <span>
-                        <small>{copy.projects.vagatrack.offers}</small>
-                        <strong>01</strong>
+                        <small>{copy.projects.psagenda.upcoming}</small>
+                        <strong>03</strong>
                       </span>
                     </div>
-                    <div className="vagatrack-chart">
-                      {[38, 65, 48, 86, 72, 55, 78].map((height, index) => (
+                    <div className="psagenda-chart">
+                      {[48, 72, 58, 88, 64, 78, 54].map((height, index) => (
                         <i key={index} style={{ height: `${height}%` }} />
                       ))}
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="vagatrack-project-badge">
-                <span>DB</span>
+              <div className="psagenda-project-badge">
+                <span>PS</span>
                 <div>
-                  <small>{copy.projects.vagatrack.persistentData}</small>
-                  <strong>{copy.projects.vagatrack.connectedDatabase}</strong>
+                  <small>{copy.projects.psagenda.clientProject}</small>
+                  <strong>{copy.projects.psagenda.protectedData}</strong>
                 </div>
               </div>
               <div className="project-orbit orbit-one" />
@@ -360,37 +354,30 @@ export function PortfolioPage({
 
             <div className="project-copy">
               <div className="project-meta">
-                <span>{copy.projects.vagatrack.meta}</span>
-                <span>{copy.projects.vagatrack.year}</span>
+                <span>{copy.projects.psagenda.meta}</span>
+                <span>{copy.projects.psagenda.year}</span>
               </div>
-              <h3>VagaTrack</h3>
+              <h3>PS Agenda</h3>
               <p className="project-subtitle">
-                {copy.projects.vagatrack.subtitle}
+                {copy.projects.psagenda.subtitle}
               </p>
-              <p>{copy.projects.vagatrack.description}</p>
+              <p>{copy.projects.psagenda.description}</p>
               <ul
                 className="tag-list"
-                aria-label={copy.projects.vagatrack.technologiesLabel}
+                aria-label={copy.projects.psagenda.technologiesLabel}
               >
                 {[
-                  "Next.js",
-                  "TypeScript",
-                  "D1",
-                  "REST API",
-                  copy.projects.vagatrack.sessionTag,
+                  "Supabase",
+                  "PostgreSQL",
+                  "Produto sob demanda",
+                  copy.projects.psagenda.privacyTag,
                 ].map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>
-              <a
-                className="text-link"
-                href="https://vagatrack.kevinsantanadev.com.br"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {copy.projects.vagatrack.link}{" "}
-                <span aria-hidden="true">↗</span>
-                <span className="sr-only"> ({copy.newTab})</span>
+              <a className="text-link" href="#contato">
+                {copy.projects.psagenda.link}{" "}
+                <span aria-hidden="true">→</span>
               </a>
             </div>
           </article>
