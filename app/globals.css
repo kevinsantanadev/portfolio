@@ -1059,7 +1059,7 @@ html[data-theme="light"] .theme-icon-moon {
   margin-top: 18px;
 }
 
-.featured-project-vagatrack {
+.featured-project-psagenda {
   background:
     linear-gradient(135deg, rgba(184, 255, 97, 0.035), transparent 42%),
     rgba(18, 24, 43, 0.52);
@@ -1091,14 +1091,14 @@ html[data-theme="light"] .theme-icon-moon {
   backdrop-filter: blur(10px);
 }
 
-.vagatrack-project-visual {
+.psagenda-project-visual {
   background:
     radial-gradient(circle at 34% 45%, rgba(184, 255, 97, 0.18), transparent 27%),
     radial-gradient(circle at 78% 26%, rgba(52, 214, 232, 0.2), transparent 31%),
     #07120f;
 }
 
-.vagatrack-screen {
+.psagenda-screen {
   position: relative;
   z-index: 2;
   width: min(80%, 620px);
@@ -1111,7 +1111,7 @@ html[data-theme="light"] .theme-icon-moon {
   transform: rotate(2deg);
 }
 
-.vagatrack-screen-top {
+.psagenda-screen-top {
   display: grid;
   height: 48px;
   padding: 0 15px;
@@ -1121,7 +1121,7 @@ html[data-theme="light"] .theme-icon-moon {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
-.vagatrack-screen-top > span {
+.psagenda-screen-top > span {
   position: relative;
   display: grid;
   width: 27px;
@@ -1135,73 +1135,24 @@ html[data-theme="light"] .theme-icon-moon {
   font-weight: 800;
 }
 
-.vagatrack-mini-logo .mini-logo-line,
-.vagatrack-mini-logo .mini-logo-node {
-  position: absolute;
-  display: block;
-  background: #07120f;
-}
-
-.vagatrack-mini-logo .mini-logo-line {
-  left: 7px;
-  width: 14px;
-  height: 2px;
-  border-radius: 99px;
-  transform-origin: left center;
-}
-
-.vagatrack-mini-logo .mini-logo-line-one {
-  top: 10px;
-  transform: rotate(31deg);
-}
-
-.vagatrack-mini-logo .mini-logo-line-two {
-  top: 18px;
-  transform: rotate(-31deg);
-}
-
-.vagatrack-mini-logo .mini-logo-node {
-  z-index: 2;
-  width: 5px;
-  height: 5px;
-  border: 1px solid #b8ff61;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px #07120f;
-}
-
-.vagatrack-mini-logo .mini-logo-node-one {
-  top: 6px;
-  left: 5px;
-}
-
-.vagatrack-mini-logo .mini-logo-node-two {
-  top: 13px;
-  right: 5px;
-}
-
-.vagatrack-mini-logo .mini-logo-node-three {
-  bottom: 5px;
-  left: 5px;
-}
-
-.vagatrack-screen-top strong {
+.psagenda-screen-top strong {
   font-size: 0.63rem;
 }
 
-.vagatrack-screen-top > i {
+.psagenda-screen-top > i {
   height: 26px;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 7px;
   background: rgba(255, 255, 255, 0.025);
 }
 
-.vagatrack-screen-body {
+.psagenda-screen-body {
   display: grid;
   min-height: 350px;
   grid-template-columns: 55px 1fr;
 }
 
-.vagatrack-screen-body > aside {
+.psagenda-screen-body > aside {
   display: grid;
   padding-top: 24px;
   justify-content: center;
@@ -1210,7 +1161,7 @@ html[data-theme="light"] .theme-icon-moon {
   border-right: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-.vagatrack-screen-body > aside span {
+.psagenda-screen-body > aside span {
   display: block;
   width: 20px;
   height: 20px;
@@ -1218,36 +1169,36 @@ html[data-theme="light"] .theme-icon-moon {
   border-radius: 6px;
 }
 
-.vagatrack-screen-body > aside span.active {
+.psagenda-screen-body > aside span.active {
   border-color: rgba(184, 255, 97, 0.45);
   background: rgba(184, 255, 97, 0.14);
 }
 
-.vagatrack-screen-body > div {
+.psagenda-screen-body > div {
   padding: 30px 28px;
 }
 
-.vagatrack-screen-body small,
-.vagatrack-project-badge small {
+.psagenda-screen-body small,
+.psagenda-project-badge small {
   color: #71817a;
   font-family: var(--font-code);
   font-size: 0.44rem;
   letter-spacing: 0.1em;
 }
 
-.vagatrack-screen-body h4 {
+.psagenda-screen-body h4 {
   margin: 7px 0 21px;
   font-size: 1.18rem;
   letter-spacing: -0.045em;
 }
 
-.vagatrack-metrics {
+.psagenda-metrics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
 
-.vagatrack-metrics > span {
+.psagenda-metrics > span {
   display: grid;
   min-height: 78px;
   padding: 11px;
@@ -1256,13 +1207,13 @@ html[data-theme="light"] .theme-icon-moon {
   background: rgba(255, 255, 255, 0.025);
 }
 
-.vagatrack-metrics strong {
+.psagenda-metrics strong {
   margin-top: 11px;
   font-size: 1.2rem;
   letter-spacing: -0.06em;
 }
 
-.vagatrack-chart {
+.psagenda-chart {
   display: flex;
   height: 125px;
   margin-top: 10px;
@@ -1275,7 +1226,7 @@ html[data-theme="light"] .theme-icon-moon {
   background: rgba(255, 255, 255, 0.025);
 }
 
-.vagatrack-chart i {
+.psagenda-chart i {
   display: block;
   width: 100%;
   max-width: 25px;
@@ -1283,7 +1234,7 @@ html[data-theme="light"] .theme-icon-moon {
   background: linear-gradient(to top, rgba(142, 229, 53, 0.38), #b8ff61);
 }
 
-.vagatrack-project-badge {
+.psagenda-project-badge {
   position: absolute;
   z-index: 4;
   right: 5%;
@@ -1302,7 +1253,7 @@ html[data-theme="light"] .theme-icon-moon {
   backdrop-filter: blur(15px);
 }
 
-.vagatrack-project-badge > span {
+.psagenda-project-badge > span {
   display: grid;
   width: 42px;
   height: 42px;
@@ -1315,12 +1266,12 @@ html[data-theme="light"] .theme-icon-moon {
   font-weight: 800;
 }
 
-.vagatrack-project-badge > div {
+.psagenda-project-badge > div {
   display: grid;
   gap: 5px;
 }
 
-.vagatrack-project-badge strong {
+.psagenda-project-badge strong {
   color: #edf6f1;
   font-size: 0.7rem;
 }
